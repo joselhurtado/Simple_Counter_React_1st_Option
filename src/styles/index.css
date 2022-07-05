@@ -1,12 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-/* 
+body {
+    background-color: black;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.box {
+    display: flex;
+    border: 1px solid #fff;
+    background-color: dimgrey;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+}
 
-*/
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    line-height: normal;
+    font-size: 52px;
+    color:red;
+    text-align: center;
+    align-items: center;
+    margin: 100px 0px 50px 0px;
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    line-height: normal;
+    font-size: 42px;
+    color: #FFF;
+    text-align: center;
+    align-items: center;
+}
+col {
+    background-color: #FFF;
+ }
