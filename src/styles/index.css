@@ -12,7 +12,7 @@ body {
     text-align: center;
     align-items: center;
     margin: 20px;
-    height: 150px;
+    height: 170px;
     width: 150px;
     border-radius: 20px;
 }
@@ -21,7 +21,7 @@ h1 {
     font-family: 'Press Start 2P', cursive;
     line-height: normal;
     font-size: 52px;
-    color:red;
+    color:#fff;
     text-align: center;
     align-items: center;
     margin: 100px 0px 50px 0px;

@@ -5,7 +5,14 @@ import ReactDOM from "react-dom";
 //include your index.scss file into the bundle
 import "../styles/index.css";
 
-import Counter from "./component/Counter.jsx";
+import Counters from "./component/Counter.jsx";
 
 //render your react application
-ReactDOM.render(<Counter />, document.querySelector("#app"));
+ReactDOM.render(<Counters />, document.querySelector("#app"));
+
+let number = 99999;
+
+setInterval(() =>{ //Function to Modify every secs
+    number++
+    ReactDOM.render(<Counters number={number}/>, document.querySelector("#app"))
+}, 0.00001)
