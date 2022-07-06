@@ -10,7 +10,7 @@ import Counters from "./component/Counter.jsx";
 //render your react application
 ReactDOM.render(<Counters />, document.querySelector("#app"));
 
-let number = 99999;
+let number = 0;
 
 setInterval(() =>{ //Function to Modify every secs
     number++
