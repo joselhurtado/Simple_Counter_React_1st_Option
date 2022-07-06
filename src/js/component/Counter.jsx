@@ -44,19 +44,19 @@ export default function Counters(props){
  	return <div className="container">
     <h1>SIMPLE COUNTER CLOCK</h1>
     <div className="container-lg row">
-        <div className="col box">
-        <h2 class="fa-regular fa-clock"></h2></div>
-        <div className="col box">
+        <div className="col box bg-danger clock">
+        <h1 class="fa-regular fa-clock"></h1></div>
+        <div className="col box bg-light">
         <h2>{place6 || 0}</h2></div>
-        <div className="col box">
+        <div className="col box bg-light">
         <h2>{place5 || 0}</h2></div>
-        <div className="col box">
+        <div className="col box bg-light">
         <h2>{place4 || 0}</h2></div>
-        <div className="col box">
+        <div className="col box bg-light">
         <h2>{place3 || 0}</h2></div>
-        <div className="col box">
+        <div className="col box bg-light">
         <h2>{place2 || 0}</h2></div>
-        <div className="col box">
+        <div className="col box bg-light">
         <h2>{place1 || 0}</h2></div>
     </div>
 </div>
